@@ -1,0 +1,141 @@
+* {
+  margin: 0;
+  padding: 0;
+
+}
+
+body, html {
+  height: 100%; 
+  width: 86%;
+  margin: 0 auto;
+  background-color: rgba(20, 91, 124, 0.295);  
+  scroll-behavior: smooth;
+}
+
+ul{
+  list-style: none;
+}
+
+p{
+  font-family: sans-serif;
+}
+
+a{
+  text-decoration: none;
+  font-size: 20px;
+  line-height: 150%;
+}
+
+a:hover{
+  color: black;
+
+}
+
+img{
+  width: 400px;
+  height: 400px;
+}
+
+.bg {
+  /* The image used */
+  background-image: url("./imagens/background.jpg");
+
+  /* Full height */
+
+  /* Center and scale the image nicely */
+  background-position: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* overflow: hidden; */
+  /* overflow-y: scroll; */
+  /* overf */
+  background-attachment: fixed;
+}
+
+
+
+
+header{
+  background-color: rgba(152, 223, 152, 0.7);
+
+  padding: 10px 0 10px 0;
+  margin-bottom: 50px;
+  text-align: center;
+  position: fixed;
+  width: 74%;
+  z-index: 1;
+  
+}
+
+.title-offset {
+  height: 80px;
+}
+
+p{
+  color: black;
+  font-size: 20px;
+  line-height: 120%;
+  margin: 36px;
+}
+
+.menu{
+  position: fixed;
+  top: 0;
+  left: 0;
+  margin-left: 15px;
+  padding: 2px;
+}
+
+.menu ul li a{
+  background-color: rgb(69, 206, 69);
+  padding: 3px;
+  border-radius: 4px;  
+  
+}
+
+
+.section{
+  margin-bottom: 100px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 100px;
+  
+
+}
+
+.title{
+  margin-bottom: 32px;
+  margin-left: 50px;
+  
+}
+
+.image{
+  margin-left: 50px;
+  
+}
+
+.text{
+  border: 2px;
+  background-color: rgba(223, 211, 211, 0.4);
+  width: 500px;
+  margin-right: 50px;
+  border-radius: 4px;
+  border-style: solid;  
+}
+
+span a{
+  color: red;
+  font-style: italic;
+  text-decoration: underline;
+  
+
+}
+
+span a:hover{
+  color: blue;
+}
+
+footer p{
+  visibility: hidden;
+}
+
